@@ -1,0 +1,29 @@
+/*  
+    Rutuja Navale
+    PRN:22070123118
+    Experiment no:2(b)
+*/
+#include <iostream>
+using namespace std;
+
+int main() {
+   int a;
+   float b;
+   double c;
+   char ch;
+   bool flag;
+
+   cout<<"The size of Integer_var is: "<< sizeof(a)<<endl; 
+   cout<<"The size of Float_var is: "<< sizeof(b)<<endl;
+   cout<<"The size of Double_var is: "<< sizeof(c)<<endl;
+   cout<<"The size of Char_var is: "<< sizeof(ch)<<endl;
+   cout<<"The size of flag is: "<< sizeof(flag)<<endl;
+return 0;
+}
+/*  OUTPUT
+The size of Integer_var is: 4
+The size of Float_var is: 4
+The size of Double_var is: 8
+The size of Char_var is: 1
+The size of flag is: 1
+*/
